@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-img1 = cv2.imread(r"D:\deepayan\study\Coding\u code\python\mr3.jpg",0)
-img2 = cv2.imread(r"D:\deepayan\study\Coding\u code\python\mr5.jpg",0)
+img1 = cv2.imread(r"mr3.jpg",0)
+img2 = cv2.imread(r"mr5.jpg",0)
 img1 = cv2.resize(img1,(500,400))
 img2 = cv2.resize(img2,(400,300))
 
